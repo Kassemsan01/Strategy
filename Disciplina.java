@@ -1,11 +1,11 @@
 public class Disciplina {
     private ICalcMedia Nota;
 
-    private double m;
+    public double m;
     private String nome;
     private double a;
     private double b;
-    private String situacao;
+    public String situacao;
 
     public ICalcMedia getNota(){
         return Nota;
@@ -30,6 +30,8 @@ public class Disciplina {
     public void setB(double b){
         this.b = b;
     }
+
+
 
 
 }
