@@ -46,6 +46,18 @@ public class Disciplina {
         this.b = b;
     }
 
+    public String getSituacao(){
+        return situacao;
+    }
+
+    public void setSituacao(String situacao){
+        this.situacao = situacao;
+    }
+
+    public double calcular(){
+        return this.Nota.calculo(this.a, this.b);
+    }
+
 
 
 
