@@ -15,6 +15,21 @@ public class Disciplina {
         Nota = Nota;
     }
 
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(double m){
+        this.nome = nome;
+
+    public double getM(){
+        return m;
+    }
+
+    public void setM(double m){
+        this.m = m;
+    }
+
     public double getA(){
         return a;
     }
