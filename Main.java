@@ -1,7 +1,7 @@
 public class Main{
     public class public static void main(String[] args) {
         Aritmetica calculo = new Aritmetica();
-        Geometrica calculoo = new Geometrica();
+        //Geometrica calculoo = new Geometrica();
 
         Disciplina d = new Disciplina(calculo);
 
